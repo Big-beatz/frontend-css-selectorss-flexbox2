@@ -48,24 +48,18 @@ form{
 
 /*opdracht 2.5 hier kom ik niet uit */
 
-.five {
+.five{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
-#1{
-    flex-shrink: 1;
+article{
+    flex-basis: 350px;
     flex-grow: 1;
-    flex-basis: 400px;
 }
 
-#2{
-    flex-shrink: 1;
-    flex-grow: 1;
-    flex-basis: 400px;
-}
-#3{
-    flex-shrink: 1;
-    flex-grow: 5;
-    flex-basis: 400px;
+.artikel-drie{
+    flex-grow: 4;
 }
